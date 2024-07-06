@@ -4,6 +4,7 @@
     padding: 0;
 }
 .list {
+    position: relative;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -23,6 +24,21 @@
     text-decoration: none;
     font-size: 24px;
     color: whitesmoke;
+}
+.title {
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: 300;
+    width: 200px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 50%;
+    left: 70%;
+    transition: opacity 1s ease;
+}
+.list:hover .title {
+    opacity: 0;
+    transition: opacity 1s ease;
 }
 .icon-diamonds {
     fill: #757575;
