@@ -24,6 +24,11 @@
     text-decoration: none;
     font-size: 24px;
     color: whitesmoke;
+    transition: color 1s ease;
+}
+.list-link:hover {
+    color: chocolate;
+    transition: color 1s ease;
 }
 .title {
     color: aliceblue;
